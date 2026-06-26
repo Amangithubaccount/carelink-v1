@@ -19,6 +19,8 @@ The frontend is built for responsiveness, high contrast, and fail-safe field ope
 - **Role-Based Workspaces**: Seamlessly toggles between **Responder** (Ambulance GPS tracking, triage intake, live route navigation) and **Hospital Coordinator** (Bed readiness toggles, incoming patient queue).
 - **Graceful Degradation**: Automatically detects missing or invalid API keys on boot and presents an option to continue in **Offline Demo Mode**.
 
+- <img src="https://github.com/Amangithubaccount/carelink-v1/blob/main/images/1.png?raw=true" width="700">
+
 ### 2. Dual-Mode Mapping Engine (`MainMap.tsx`)
 - **Live Google Maps Mode**: Utilizes `@vis.gl/react-google-maps` and Google Places API (New) to fetch verified nearby hospitals, geocode patient coordinates, and draw live transit routes.
 - **Offline Simulation Mode**: When running locally without cloud credentials, activates an interactive SVG radar sweep with concentric range rings, clickable dispatch pin placement, and simulated hospital readiness beacons.
