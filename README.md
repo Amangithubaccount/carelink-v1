@@ -25,6 +25,9 @@ The frontend is built for responsiveness, high contrast, and fail-safe field ope
 - **Live Google Maps Mode**: Utilizes `@vis.gl/react-google-maps` and Google Places API (New) to fetch verified nearby hospitals, geocode patient coordinates, and draw live transit routes.
 - **Offline Simulation Mode**: When running locally without cloud credentials, activates an interactive SVG radar sweep with concentric range rings, clickable dispatch pin placement, and simulated hospital readiness beacons.
 
+- <img src="https://github.com/Amangithubaccount/carelink-v1/blob/main/images/2.png?raw=true" width="700">
+
+
 ### 3. Triage & Decision Engine (`/src/lib/decisionEngine.ts`)
 Evaluates incoming patient vitals against real-time hospital telemetry to score and assign the optimal facility based on:
 - **Distance & ETA**: Haversine calculation combined with live traffic penalties.
