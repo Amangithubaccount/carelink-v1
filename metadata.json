@@ -1,0 +1,12 @@
+{
+  "name": "CareLink v1",
+  "description": "Real-time emergency bridge connecting field responders with actual nearby hospital departments.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "Real-world Hospital Search",
+    "Emergency Decision Engine",
+    "Digital Notepad Export"
+  ]
+}

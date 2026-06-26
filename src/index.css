@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-ink: #101828;
+  --color-sub-ink: #475467;
+  --color-border: #EAECF0;
+  --color-emergency: #D92D20;
+  --color-warning: #F79009;
+  --color-success: #12B76A;
+  --color-accent: #2E90FA;
+  --color-theme-bg: #F8F9FC;
+}
+
+@layer base {
+  body {
+    @apply bg-theme-bg text-ink font-sans antialiased;
+  }
+}
+
+.high-tap-button {
+  @apply min-h-[64px] rounded-xl flex items-center justify-center font-bold text-lg transition-all active:scale-95 touch-manipulation uppercase tracking-wider;
+}
+
+.severity-critical {
+  @apply bg-emergency text-white shadow-lg shadow-emergency/20;
+}
+
+.severity-urgent {
+  @apply bg-warning text-white shadow-lg shadow-warning/20;
+}
+
+.severity-stable {
+  @apply bg-success text-white shadow-lg shadow-success/20;
+}
+
+.glass-panel {
+  @apply bg-white border border-border rounded-2xl p-6 shadow-sm;
+}
+
+.section-label {
+  @apply text-[11px] uppercase font-bold text-sub-ink tracking-wider mb-2 block;
+}
+
+.tag {
+  @apply inline-block px-2 py-1 bg-border rounded text-[11px] font-semibold mr-1;
+}
+
