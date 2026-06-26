@@ -8,27 +8,7 @@ CareLink is a production-ready, real-time emergency healthcare dispatch and trac
 
 The project follows a clean, highly modular **React 18 + TypeScript + Vite** architecture organized for clarity, maintainability, and zero-config local execution:
 
-├── .env.example               # Template for required environment variables & API keys
-├── package.json               # Project manifest, dependencies, and Vite scripts
-├── vite.config.ts             # Vite build & plugin configuration
-└── src/
-    ├── main.tsx               # Application DOM entry point
-    ├── App.tsx                # Primary state controller, auth switcher, and view router
-    ├── index.css              # Global Tailwind CSS styling & custom utility classes
-    ├── types.ts               # Shared TypeScript domain interfaces (Hospital, Case, Role)
-    ├── components/            # UI Components & Viewports
-    │   ├── MainMap.tsx        # Dual-mode Map Engine (Google Maps API + Offline SVG Radar)
-    │   ├── EmergencyForm.tsx  # Patient intake & triage data entry form
-    │   ├── DecisionDisplay.tsx# AI clinical matching & transit recommendation display
-    │   ├── HospitalStatus.tsx # Hospital ICU/OR live resource management panel
-    │   └── DBConnectionPanel.tsx # Appwrite database synchronizer modal
-    ├── services/              # External API & Data Integration
-    │   ├── hospitalService.ts # Places API hospital locator & geocoding helper
-    │   └── appwriteService.ts # Cloud persistence & real-time collection sync
-    └── lib/                   # Core Business Logic
-        ├── decisionEngine.ts  # Triage scoring & optimal hospital routing algorithm
-        └── utils.ts           # Styling helpers (Tailwind class merger)
-
+<img src="https://github.com/Amangithubaccount/carelink-v1/blob/main/images/8.png?raw=true" width="700">
 ---
 
 ## 💻 Frontend Architecture (`/src`)
