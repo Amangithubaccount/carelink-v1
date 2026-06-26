@@ -48,6 +48,8 @@ CareLink utilizes a modern client-serverless integration pattern:
 2. **Appwrite Cloud Persistence (`/src/services/appwriteService.ts`)**:
    - Manages durable cloud records for active emergency cases and hospital telemetry updates.
    - Includes lazy initialization to ensure the UI never crashes if cloud storage is unconfigured.
+  
+   - <img src="https://github.com/Amangithubaccount/carelink-v1/blob/main/images/7.png?raw=true" width="700">
 
 ---
 
