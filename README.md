@@ -33,6 +33,8 @@ Evaluates incoming patient vitals against real-time hospital telemetry to score 
 - **Distance & ETA**: Haversine calculation combined with live traffic penalties.
 - **Clinical Readiness**: Filters out hospitals lacking required resources (e.g., bypassing facilities without open ICU beds or trauma teams for severe incident ratings).
 
+- <img src="https://github.com/Amangithubaccount/carelink-v1/blob/main/images/5.png?raw=true" width="700">
+
 ---
 
 ## ⚙️ Backend & API Integration
