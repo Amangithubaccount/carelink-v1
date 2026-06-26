@@ -44,6 +44,8 @@ CareLink utilizes a modern client-serverless integration pattern:
 1. **Google Maps Platform Integration**:
    - API keys are injected via environment variables (`VITE_GOOGLE_MAPS_PLATFORM_KEY` or `GOOGLE_MAPS_PLATFORM_KEY`).
    - If blocked by browser ad-blockers or running in restricted iframes, the GPS locator falls back cleanly to simulated coordinates.
+  
+   - <img src="https://github.com/Amangithubaccount/carelink-v1/blob/main/images/6.png?raw=true" width="700">
 
 2. **Appwrite Cloud Persistence (`/src/services/appwriteService.ts`)**:
    - Manages durable cloud records for active emergency cases and hospital telemetry updates.
